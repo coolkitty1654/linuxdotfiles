@@ -47,8 +47,8 @@ Below are photos of how the themes look:
 
 ## The World Machine
 
-![Image](https://github.com/coolkitty1654/dotfiles/blob/a049fe5e569e8cbb54fbd459631beb67a309ac66/Pictures/twm.png)
+![Image](https://github.com/coolkitty1654/linuxdotfiles/blob/4d840c4d8154cb96ed070d5e791e137b02843459/Pictures/twm.png)
 
 ## Refuge
 
-![Image](https://github.com/coolkitty1654/dotfiles/blob/211877c46b300391bd6fbc6e8495271a76589e2b/Pictures/refuge.png)
+![Image](https://github.com/coolkitty1654/linuxdotfiles/blob/4d840c4d8154cb96ed070d5e791e137b02843459/Pictures/refuge.png)
