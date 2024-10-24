@@ -1,0 +1,57 @@
+{
+    "layer": "top",
+    "modules-left": ["tray", "clock", "hyprland/workspaces"],
+    "modules-center": ["hyprland/window"],
+    "modules-right": ["disk", "cpu", "memory", "wireplumber", "temperature", "battery"],
+    "sway/window": {
+        "max-length": 50
+    },
+
+    "battery": {
+        "format": "{capacity}% {icon}",
+        "format-icons": ["", "", "", "", ""]
+    },
+
+    "clock": {
+        "format": "{:%R | %D}",
+        "format-alt": "{:%a, %d. %b  %H:%M}"
+    },
+
+    "tray": {
+	"icon-size": 18,
+    "spacing": 10
+    },
+
+    "hyprland/window": {
+        "format": "{title}",
+        "all-outputs" : true,
+        "offscreen-css" : true,
+        "offscreen-css-text": "(inactive)"
+    },
+
+    "wireplumber": {
+	    "format": "{volume}% {icon}",
+        "format-muted": "",
+        "on-click": "helvum",
+        "format-icons": ["", "", ""]
+    },
+
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false
+    },
+
+    "memory": {
+        "format": "{}% "
+    },
+
+    "disk": {
+        "format": "{used} / {total} ",
+        "path": "/"
+    },
+
+    "temperature": {
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": ["", "", ""]
+    }
+}

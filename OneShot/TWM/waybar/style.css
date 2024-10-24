@@ -1,0 +1,139 @@
+* {
+    font-family: "PixeloidSans";
+    font-size: 13px;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+#clock {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+	margin-bottom: 0px;
+	background: black;
+    color: #4e2881;
+    border: 2px solid #4e2881;
+}
+
+#temperature {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+	margin-bottom: 0px;
+	background: black;
+    color: #4e2881;
+    border: 2px solid #4e2881;
+}
+
+#disk {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+	margin-bottom: 0px;
+	background: black;
+    color: #4e2881;
+    border: 2px solid #4e2881;
+}
+
+#memory {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+	margin-bottom: 0px;
+	background: black;
+    color: #4e2881;
+    border: 2px solid #4e2881;
+}
+
+#cpu {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+	margin-bottom: 0px;
+	background: black;
+    color: #4e2881;
+    border: 2px solid #4e2881;
+}
+
+#wireplumber {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+	margin-bottom: 0px;
+	background: black;
+    color: #4e2881;
+    border: 2px solid #4e2881;
+}
+
+#battery {
+	margin-top: 10px;
+	margin-left: 10px;
+    margin-right: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+	margin-bottom: 0px;
+	background: black;
+    color: #4e2881;
+    border: 2px solid #4e2881;
+}
+
+#window {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+    font-size: 4px;
+	margin-bottom: 0px;
+	background: black;
+    color: #4e2881;
+    border: 2px solid #4e2881;
+}
+
+window#waybar.empty #window {
+    background-color: transparent;
+    border: transparent hidden;
+}
+
+#tray {
+	margin-top: 10px;
+	margin-left: 10px;
+	padding-left: 10px;
+    padding-right: 10px;
+	margin-bottom: 0px;
+	background: black;
+    border: 2px solid #4e2881;
+}
+
+#workspaces {
+	margin-top: 10px;
+	margin-left: 10px;
+	font-size: 4px;
+	margin-bottom: 0px;
+	background: black;
+    border: 2px solid #4e2881;
+}
+
+#workspaces button {
+    color: #4e2881;
+}
+
+#workspaces button:hover {
+    background-color: transparent;
+	background: transparent;
+    color: transparent;
+    transition: none;
+    border-radius: 0;
+	border-color: #4e2881;
+	color: white;
+    box-shadow: none;
+    outline: none;
+}
+

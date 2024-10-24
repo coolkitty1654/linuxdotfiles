@@ -1,0 +1,19 @@
+[colors.primary]
+background = "#000000"
+foreground = "#4e2881"
+
+[cursor.style]
+blinking = "always"
+
+[font.normal]
+family = "PixeloidMono"
+
+[terminal.shell]
+program = "/bin/zsh"
+
+[window]
+opacity = 0.85
+
+[window.padding]
+x = 30
+y = 30

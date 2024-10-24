@@ -1,0 +1,65 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "top", // Waybar at top layer
+    "height": 37, // Waybar height (to be removed for auto height)
+    "spacing": 1, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+	"tray",
+        "clock",
+	"hyprland/workspaces",
+	"mpris"	
+    ],
+    "modules-right": [
+        "wireplumber",
+        "network",
+        "memory",
+        "cpu",
+	"disk",
+        "temperature"
+    ],
+    // Modules configuration
+    "tray": {
+        "spacing": 10
+    },
+    "disk": {
+        "format": "{used} / {total} ",
+        "path": "/"
+    },
+    "clock": {
+        "format": " {:%R    %D}"
+    },
+    "mpris": {
+        "format": "{player_icon} <b>{artist} - {title}</b>   {position}/{length}",
+        "format-paused": "{status_icon} <b><i>{artist} - {title}</i></b>   {position}/{length}",
+        "interval": 1,
+        "player-icons": {
+                "default": "▶"
+        },
+    },
+    "cpu": {
+        "format": "{usage}% ",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "{}% "
+    },
+    "wireplumber": {
+	"format": "{volume}% {icon}",
+        "format-muted": "",
+        "on-click": "helvum",
+        "format-icons": ["", "", ""]
+    },
+    "temperature": {
+        "format": "{temperatureC}°C {icon}",
+        "format-icons": ["", "", ""]
+    },
+    "network": {
+        "format-wifi": "{essid} ({signalStrength}%) ",
+        "format-ethernet": "{ipaddr}/{cidr}",
+        "tooltip-format": "{ifname} via {gwaddr}",
+        "format-linked": "{ifname} (No IP)",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+}

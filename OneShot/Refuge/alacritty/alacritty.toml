@@ -1,0 +1,19 @@
+[colors.primary]
+background = "#390420"
+foreground = "#ecd2d2"
+
+[cursor.style]
+blinking = "always"
+
+[font.normal]
+family = "MesloLGS NF"
+
+[terminal.shell]
+program = "/bin/zsh"
+
+[window]
+opacity = 0.75
+
+[window.padding]
+x = 30
+y = 30
