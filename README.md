@@ -21,6 +21,7 @@ There are a couple of things you'll need to ensure that these config files work 
 - mpv
 - wireplumber
 - zsh
+- oh-my-zsh
 - p10k zsh theme
 - brightnessctl
 
