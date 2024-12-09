@@ -13,7 +13,7 @@
     },
 
     "clock": {
-        "format": "{:%R | %D}",
+        "format": "{:%R | %d/%m/%y}",
         "format-alt": "{:%a, %d. %b  %H:%M}"
     },
 
