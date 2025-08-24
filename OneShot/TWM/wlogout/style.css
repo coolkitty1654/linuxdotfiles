@@ -2,12 +2,11 @@
 	font-family: PixeloidMono;
 	box-shadow: none;
 	margin: 5px;
-	transition: 20ms;
+	transition: 0ms;
 }
 
 window {
-	background-color: rgba(0, 0, 0, 0.8);
-	background-image: image(url("twmblur.png"), url("twmblur.png"));
+	background-color: rgba(0, 0, 0, 0.85);
 }
 
 button {
