@@ -7,6 +7,13 @@
         "max-length": 50
     },
 
+    "custom/power": {
+        "on-click": "wlogout -b 4",
+        "format": "⏻",
+        "tooltip": true,
+        "tooltip-format": "End your World Machine session."
+    },
+
     "battery": {
         "format": "{capacity}% {icon}",
         "format-icons": ["", "", "", "", ""]
@@ -55,3 +62,4 @@
         "format-icons": ["", "", ""]
     }
 }
+
