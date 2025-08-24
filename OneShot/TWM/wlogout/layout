@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "sleep 0.4 && hyprlock",
+    "action" : "hyprlock",
     "text" : "Lock The World Machine.",
     "keybind" : "l"
 }
