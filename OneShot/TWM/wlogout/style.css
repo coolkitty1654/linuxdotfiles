@@ -29,6 +29,9 @@ button {
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: 45%;
+	padding-bottom: 75px;
+    padding-left: 0px;
+    padding-right: 0px
 }
 
 button:active, button:hover {
