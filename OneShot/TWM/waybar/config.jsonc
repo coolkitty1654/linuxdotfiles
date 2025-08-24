@@ -8,7 +8,7 @@
     },
 
     "custom/power": {
-        "on-click": "wlogout -b 4",
+        "on-click": "wlogout -b 4 -m 250",
         "format": "⏻",
         "tooltip": true,
         "tooltip-format": "End your World Machine session."
@@ -64,5 +64,6 @@
 		"tooltip": false
     }
 }
+
 
 
