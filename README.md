@@ -7,6 +7,8 @@ There are a couple of things you'll need to ensure that these config files work 
 
 - hyprland
 - hyprpaper
+- hyprlock
+- hypridle
 - hyprshot (AUR)
 - waybar
 - wofi
@@ -20,6 +22,7 @@ There are a couple of things you'll need to ensure that these config files work 
 - udiskie
 - mpv
 - wireplumber
+- wlogout (AUR)
 - zsh
 - oh-my-zsh
 - p10k zsh theme
@@ -27,7 +30,7 @@ There are a couple of things you'll need to ensure that these config files work 
 
 You'll need Arch Linux or an Arch-based distribution with an AUR helper to make use of the AUR packages if you don't want to build them from source.
 
-For Firefox , I use the extension Tabliss to customise my homepage. That's the tabliss.json file within the folders if you would like to use it. You download the files, click the settings icon in the top-left of your homepage and import the .json to customise it!
+For Firefox and its adjacent browsers, I use the extension Tabliss to customise my homepage. That's the tabliss.json file within the folders if you would like to use it. You download the files, click the settings icon in the top-left of your homepage and import the .json to customise it!
 
 ## Keybinds
 
@@ -53,3 +56,4 @@ Below are photos of how the themes look:
 ## Refuge
 
 ![Image](https://github.com/coolkitty1654/linuxdotfiles/blob/4d840c4d8154cb96ed070d5e791e137b02843459/Pictures/refuge.png)
+
