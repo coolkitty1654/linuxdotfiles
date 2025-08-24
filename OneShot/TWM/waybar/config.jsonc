@@ -21,7 +21,8 @@
 
     "clock": {
         "format": "{:%R | %d/%m/%y}",
-        "format-alt": "{:%a, %d. %b  %H:%M}"
+        "format-alt": "{:%a, %d. %b  %H:%M}",
+		"tooltip": false
     },
 
     "tray": {
@@ -59,7 +60,9 @@
 
     "temperature": {
         "format": "{temperatureC}°C {icon}",
-        "format-icons": ["", "", ""]
+        "format-icons": ["", "", ""],
+		"tooltip": false
     }
 }
+
 
