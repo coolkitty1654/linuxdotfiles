@@ -1,0 +1,24 @@
+{
+    "label" : "lock",
+    "action" : "sleep 0.4 && hyprlock",
+    "text" : "Lock The World Machine.",
+    "keybind" : "l"
+}
+{
+    "label" : "logout",
+    "action" : "sleep 1; hyprctl dispatch exit",
+    "text" : "Exit The World Machine.",
+    "keybind" : "e"
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "Shutdown The World Machine.",
+    "keybind" : "s"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "Reboot The World Machine.",
+    "keybind" : "r"
+}

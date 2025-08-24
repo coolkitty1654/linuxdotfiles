@@ -1,0 +1,60 @@
+* {
+	font-family: PixeloidMono;
+	box-shadow: none;
+	margin: 5px;
+	transition: 20ms;
+}
+
+window {
+	background-color: rgba(0, 0, 0, 0.8);
+	background-image: image(url("twmblur.png"), url("twmblur.png"));
+}
+
+button {
+        border-radius: 0;
+        border-color: #4e2881;
+	color: #4e2881;
+	text-shadow: 0 0 0px black;
+	font-size: 15px;
+	text-decoration-color: #4e2881;
+	background-color: rgba(0, 0, 0, 1);
+	border-style: solid;
+	border-width: 2px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 45%;
+}
+
+button:active, button:hover {
+	background-color: #4e2881;
+	color: #FFFFFF;
+	outline-style: none;
+}
+
+#lock {
+    background-image: image(url("icons/lock.png"), url("icons/lock.png"));
+}
+#lock:hover, lock:active {
+	background-image: image(url("icons/lockwhite.png"), url("icons/lockwhite.png"));
+}
+
+#logout {
+    background-image: image(url("icons/logout.png"), url("icons/logout.png"));
+}
+#logout:hover, logout:active {
+    background-image: image(url("icons/logoutwhite.png"), url("icons/logoutwhite.png"));
+}
+
+#shutdown {
+    background-image: image(url("icons/shutdown.png"), url("icons/shutdown.png"));
+}
+#shutdown:hover, shutdown:active {
+    background-image: image(url("icons/shutdownwhite.png"), url("icons/shutdownwhite.png"));
+}
+
+#reboot {
+    background-image: image(url("icons/reboot.png"), url("icons/reboot.png"));
+}
+#reboot:hover, reboot:active {
+    background-image: image(url("icons/rebootwhite.png"), url("icons/rebootwhite.png"));
+}
