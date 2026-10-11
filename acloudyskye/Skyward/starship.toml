@@ -1,0 +1,48 @@
+format = """
+[ $directory $git_branch $git_status](white)
+[❯](white) """
+
+[character]
+success_symbol = "[❯](white)"
+error_symbol = "[❯](white)"
+vimcmd_symbol = "[❮](white)"
+
+[directory]
+style = "white"
+
+[git_branch]
+style = "white"
+
+[git_status]
+style = "white"
+
+[cmd_duration]
+style = "white"
+
+[package]
+style = "white"
+
+[python]
+style = "white"
+
+[nodejs]
+style = "white"
+
+[rust]
+style = "white"
+
+[golang]
+style = "white"
+
+[php]
+style = "white"
+
+[java]
+style = "white"
+
+[username]
+style_user = "white"
+style_root = "white"
+
+[hostname]
+style = "white"
