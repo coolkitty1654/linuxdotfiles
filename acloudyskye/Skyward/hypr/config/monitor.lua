@@ -6,12 +6,8 @@
 
 -- https://wiki.hyprland.org/Configuring/Monitors/
 
--- uncomment lines as needed for monitors
-
---monitor=eDP-1,preferred,auto,1
-
 hl.monitor({
-    output   = "eDP-1",
+    output   = "DP-1",
     mode     = "1920x1080@60",
     position = "auto",
     scale    = 1,
