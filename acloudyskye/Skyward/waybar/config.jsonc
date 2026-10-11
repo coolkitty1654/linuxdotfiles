@@ -1,0 +1,116 @@
+{
+	"layer": "top",
+	"position": "bottom",
+	"margin-top": 2,
+	"margin-bottom": 0,
+	"margin-left": 3,
+	"margin-right": 5,
+	"spacing": 0,
+
+	"modules-left": ["hyprland/workspaces", "hyprland/window",],
+	"modules-center": [],
+	"modules-right": ["group/overflow", "tray", "clock"],
+
+	"battery": {
+  		"states": {
+    			"warning": 20,
+    			"critical": 10
+  		},
+
+  	"format": "{icon} {capacity}%",
+  	"format-charging": "󰂄 {capacity}%",
+  	"format-plugged": "󰂄 {capacity}%",
+  	"format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+	"tooltip-format": "{timeTo}, {cycles} cycles"
+	},
+ 
+	"hyprland/workspaces": {
+  		"format": "{icon}",
+  		"format-icons": {
+    			"active": "●",
+    			"default": "●"
+  		}
+	},
+
+	"hyprland/window": {
+		"format": "{title}",
+	},
+
+	"clock": {
+  		"tooltip-format": "{:%A, %d. %B}",
+  		"format": "{:%H:%M}",
+		"format-alt": "{:%A, %d. %b / %H:%M}"
+	},
+
+	"network": {
+  		"format-wifi": "󰤢",
+  		"format-ethernet": "󰈀 Connected",
+  		"format-disconnected": "󰤠 Disconnected",
+  		"format-linked": "󰈁 {ifname}",
+		"interval": 5,
+		"tooltip-format": "Network: {ifname}\nIP: {ipaddr}\nGateway: {gwaddr}",
+  		"tooltip-format-wifi": "WiFi: {essid} ({signalStrength}%)\nIP: {ipaddr}\nFrequency: {frequency}MHz",
+  		"tooltip-format-ethernet": "Ethernet: {ifname}\nIP: {ipaddr}\nSpeed: {bandwidthUpBits}/{bandwidthDownBits}",
+  		"on-click": "nm-applet"
+	},
+
+	"backlight": {
+  		"format": "{icon}  {percent}%",
+    		"format-icons": ["", "󰃜", "󰃛", "󰃞", "󰃝", "󰃟", "󰃠"],
+    		"tooltip": false
+  	},
+
+  	"wireplumber": {
+    		"format": "{icon}  {volume}%",
+    		"format-muted": "󰝟 Mute",
+    		"format-icons": ["󰕿", "󰖀", "󰕾"],
+    		"on-click": "helvum",
+    		"on-scroll-up": "pactl set-sink-volume @DEFAULT_SINK@ +2%",
+    		"on-scroll-down": "pactl set-sink-volume @DEFAULT_SINK@ -2%",
+    		"tooltip-format": "Volume: {volume}%",
+    		"scroll-step": 2,
+    		"max-volume": 100,
+		"tooltip": false
+  	},
+
+	"user": {
+		"format": "{work_H}:{work_M}:{work_S} up",
+		"interval": 1,
+		"tooltip": false
+	},
+
+  	"tray": {
+    		"icon-size": 18,
+    		"spacing": 10
+  	},
+
+  	"disk": {
+		"format": " {used} / {total}",
+		"path": "/"
+  	},
+
+  	"memory": {
+		"format": "{}% ",
+		"tooltip-format": "{used}GiB of memory used"
+  	},
+
+  	"cpu": {
+		"format": "{usage}% ",
+	
+  	},
+
+  	"custom/expand-icon": {
+		"format": "|",
+		"tooltip": false
+  	},
+
+  	"group/overflow": {
+		"orientation": "inherit",
+		"drawer": {
+			"transition-duration": 500,
+			"click-to-reveal": true
+		},
+
+		"modules": ["custom/expand-icon", "user", "cpu",  "memory", "disk", "wireplumber", "backlight", "battery"]
+  	}
+}

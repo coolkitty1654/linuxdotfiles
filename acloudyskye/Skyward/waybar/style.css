@@ -1,0 +1,86 @@
+/* waybar stuff */
+
+* {
+	font-family: 'SpaceMono';
+  	font-size: 13px;
+  	min-height: 0;
+  	border: none;
+	outline: none;
+}
+
+#waybar {
+  	background: transparent;
+  	margin: 0px;
+  	font-weight: 600;
+  	border: none;
+  	outline: none;
+}
+
+/* make window font bolder */
+
+#window {
+	font-weight: 900;
+	padding-left: 4px;
+}
+
+/* workspaces css */
+
+#workspaces {
+  	background-color: @background;
+  	padding: 2px;
+  	margin: 0px 0px 0px 0px;
+}
+
+#workspaces button {
+  	color: #e0e0e0;
+  	padding: 0rem 0.6rem;
+  	background: transparent;
+}
+
+#workspaces button.active {
+  	color: #b1cddb;
+  	background-color: transparent;
+	transition: 0.3s ease;
+	text-shadow: 3px 0 #b1cddb, -3px 0 #b1cddb, 0 3px #b1cddb, 0 -3px #b1cddb, 3px 3px #b1cddb, -3px -3px #b1cddb, 3px -3px #b1cddb, -3px 3px #b1cddb;
+
+}
+
+#workspaces button:hover {
+  	background: transparent;
+  	color: #b1cddb;
+}
+
+/* everything else */
+
+#clock,
+#tray,
+#network,
+#wireplumber,
+#backlight,
+#battery,
+#disk,
+#memory,
+#cpu,
+#user {
+	background-color: transparent;
+	padding: 0rem 0.7rem;
+	margin: 10px 0px;
+	color: #e0e0e0;
+}
+
+tooltip {
+	background-color: #000000;
+	color: #e0e0e0;
+	border: 1px solid #e0e0e0;
+	border-radius: 3px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+/* overflow menu stuff */
+
+#custom-expand-icon {
+	padding: 0px 5px;
+	font-weight: 900;
+	color: #e0e0e0;
+}

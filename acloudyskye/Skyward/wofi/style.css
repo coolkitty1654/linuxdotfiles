@@ -1,0 +1,49 @@
+window {
+	font-family: "SpaceMono";
+	border: 1px;
+	border-radius: 3px;
+	border-color: #e0e0e0;
+	border-style: solid;
+	background: #000000;
+}
+#entry {
+    	color: #e0e0e0;
+	transition: all 0.3s ease;
+}
+
+#entry:selected {
+	background-color: transparent;
+	border-left: 2px solid #e0e0e0;
+    	padding-left: 15px;
+    	color: #e0e0e0;
+    	outline: none;
+	transition: all 0.3s ease;
+}
+
+#input {
+	font-size: 15px;
+    	font-family: "SpaceMono";
+    	border: 1px;
+	border-radius: 2px;
+    	border-color: #e0e0e0;
+    	color: #e0e0e0;
+    	border-style: solid;
+    	background-color: #000000;
+}
+
+#input:focus {
+    	box-shadow: none;
+}
+
+#outer-box {
+	padding: 15px;
+	border-radius: 3px;
+}
+
+#scroll {
+    	padding-top: 15px;
+}
+
+.icon {
+    	display: none;
+}
