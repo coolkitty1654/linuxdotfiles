@@ -9,7 +9,7 @@ There are a couple of things you'll need to ensure that these config files work 
 - hyprpaper
 - hyprlock
 - hypridle
-- hyprshot (AUR)
+- hyprshot
 - waybar
 - wofi
 - wofi-calc (AUR)
@@ -25,7 +25,7 @@ There are a couple of things you'll need to ensure that these config files work 
 - wlogout (AUR)
 - zsh
 - oh-my-zsh
-- p10k zsh theme
+- p10k zsh theme (or starship)
 - brightnessctl
 
 You'll need Arch Linux or an Arch-based distribution with an AUR helper to make use of the AUR packages if you don't want to build them from source.
@@ -45,7 +45,7 @@ Because my keybinds are slightly weird, here's a quick reference for some common
 - <kbd>SUPER</kbd> + <kbd>1-9</kbd> to switch workspaces
 - <kbd>SUPER</kbd> + <kbd>M</kbd> to exit Hyprland
 
-(full keybinds at ~/.config/hypr/config/binds.conf)
+(full keybinds at ~/.config/hypr/config/binds.lua)
 
 Below are photos of how the themes look:
 
